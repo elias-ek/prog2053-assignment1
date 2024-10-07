@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Regular.ttf);
+}  
+
+.wrapper{
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+body{
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    text-align: center;
+    background-color: rgb(29, 35, 54);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(29, 35, 54);
+    color: white;
+    margin: 0;
+    padding: 10px;
+    min-height: 100%;
+}
+
+p{max-width: 50ch;}
+
+#part1{
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(29, 35, 54);
+    color: white;
+    text-align: left;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#text1{
+    max-width: 50vh;
+    text-align: center;
+    margin-top: 150px;
+    padding-left: 100px;
+    float: left;
+    
+}
+
+#part2div{
+    display: inline-flex;
+    align-items: center;
+    padding: 50px;
+}
+
+img{
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+    padding: 100px 150px;
+    
+}
+
+img#img1{
+    float: right;
+}
+
+
+#part2{
+    text-align: center;
+}
+
+.borderimage{
+    width: 100px;
+    height: auto;
+    border: 5px solid #555;
+    border-radius: 15px;
+}
+
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color: blueviolet;
+}
+a:hover{
+    text-decoration: underline;
+}
+a.white{
+    color: white;
+}
+
+h2{
+    margin: 0px;
+    padding: 10px;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+}
+
+#part3{
+    background-color: rgb(198, 223, 235);
+    text-align: center;
+}
+
+blockquote{
+    display:inline-block;
+    align-items: center;
+    margin: 1.5em 10px;
+    padding: 0.5em 50px;
+    text-align: center;
+}
+#part4{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#signupdiv{
+    display: inline-flex;
+    width: fit-content;
+    text-align: left;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: rgb(79, 114, 209);
+}
+
+#signupdiv div{
+    padding: 10px;
+}
+
+
+.signupbutton{
+    height: fit-content;
+    background-color: rgb(79, 114, 209);
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#post{
+    display: block;
+}
