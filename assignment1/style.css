@@ -7,6 +7,7 @@
     min-height: 100%;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    
 }
 body{
     font-family: 'Roboto';
@@ -160,5 +161,32 @@ blockquote{
 }
 
 #post{
-    display: block;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    
+    
+}
+
+.postDiv{
+
+   display: grid;
+   align-items: center;
+   justify-items: center;
+   padding: 50px;
+    
+}
+
+.postDiv p{
+    font-size: 25px;
+}
+
+.weatherdiv{
+    width: 90%;
+    max-width: 470px;
+    background: lightblue;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
 }
